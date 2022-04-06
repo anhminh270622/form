@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #ccc;
+}
+
+body {
+  background-color: rgb(161, 157, 157);
+
+}
+
+.modal img{
+  /* display: flex; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.modal-header {
+  width: 350px;
+  height: 400px;
+  border-radius: 3px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px 10px;
+  text-align: center;
+  background-color: rgb(86, 108, 41);
+}
+
+.modal-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px auto;
+  border: 2px solid rgb(119, 5, 5);
+}
+.modal-form p {
+  color: var(--white-color);
+  margin: 5px 0;
+  font-size: 14px;
+}
+.modal-form input {
+  padding: 3px 2px;
+  margin: 10px 0;
+  border: 2px solid rgb(119, 5, 5);
+  width: 200px;
+}
+.modal-img img {
+  position: relative;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.modal-login {
+  width: 200px;
+  background-color: rgb(212, 42, 42);
+  padding: 5px 0;
+  color: var(--white-color);
+  margin: 12px auto;
+  border-radius: 2px;
+  cursor: pointer;
+  border: none;
+}
+.modal-login:hover {
+  background-color: rgb(193, 92, 92);
+ 
+}
+.modal-Call .modal-fb,
+.modal-em {
+  width: 120px;
+  padding: 7px 10px;
+  margin: 10px auto;
+  border-radius: 2px;
+  cursor: pointer;
+  color: var(--white-color);
+  border: none;
+  display: flex;
+}
+.modal-Call .modal-fb {
+  background-color: rgb(50, 75, 219);
+}
+.modal-Call .modal-em {
+  background-color: rgb(27, 149, 186);
+}
+.modal-Call i{
+margin-right: 5px;
+}
